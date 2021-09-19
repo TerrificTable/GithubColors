@@ -9,5 +9,6 @@ cd GithubColors
 python github-colors.py
 ```
 
+# Info
 Working on an Invalid List input catch.
 In my testing Try didn't work same as If to catch if the input isn't an integer
