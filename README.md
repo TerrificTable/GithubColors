@@ -9,4 +9,5 @@ cd GithubColors
 python github-colors.py
 ```
 
-The rest should be clear but some Programing Languages cant be found like: "C++" you need to type: "Objective-C++" to get the C++ color code
+Working on an Invalid List input catch.
+In my testing Try didn't work same as If to catch if the input isn't an integer
