@@ -80,7 +80,7 @@ def colors1():
         else:
             print(f"{out} Colorcode: {color} \n{finishe}"); input(); exit()
     except Exception as e:
-        print(f"{err} {e}, {finishe}"); input(); exit()
+        print(f"{err} {e} \n{finishe}"); input(); exit()
 
 def colors2():
     try:
@@ -103,5 +103,5 @@ def colors2():
         else:
             print(f"{out} Colorcode: {color}\n{out} Topic-Url: {url} \n{finishe}"); input(); exit()
     except Exception as e:
-        print(f"{err} {e}, {finishe}"); input(); exit()
+        print(f"{err} {e} \n{finishe}"); input(); exit()
 screen()
