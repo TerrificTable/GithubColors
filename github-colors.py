@@ -44,13 +44,14 @@ def colorinp():
 
 def getlist():
     li = input(f"\n{inp} List 1 or 2 [1/2]: ")
+
     if int(li) == 1:
         colorinp()
         colors1()
     elif int(li) == 2:
         colorinp()
         colors2()
-    
+
 f = open("./githubColors.json")
 getcolors = json.load(f); f.close()
 f = open("./githubColors-2.json")
