@@ -1,7 +1,5 @@
 import json
 import os
-import colorama
-from colorama.initialise import colorama_text
 try:
     from colorama import Fore, Style
 except:
@@ -58,7 +56,7 @@ f = open("./githubColors-2.json", "r")
 getcolors1 = json.load(f); f.close()
 
 def screen():
-    os.system("cls;clear"); print(banner)
+    os.system("cls;clear"); os.system("title [GitHub Colors] - TerrificTable"); os.system("mode 130, 33"); print(banner)
     print(f"{inf} List 2 Includes GitHub-Topic URL and Colorcode\n{inf} List 1 only includes Colorcde")
     getlist()
 
